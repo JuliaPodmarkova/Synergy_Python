@@ -1,5 +1,6 @@
 # Задача 5. Операция секретного кода
 
+
 import re
 
 code = input('Введите код: ')
@@ -7,14 +8,18 @@ code = input('Введите код: ')
 def process_secret_code(code):
     code = code.replace(' ', '')
 
-    if not re.fullmatch(r'[\d\+\-\*\/\.$$$$$$\s]+$', code):
-        raise ValueError("Некорректный формат ввода. Допустимые операторы: +,-,*,/.")
+    if not re.fullmatch(r'[\d+\-*/.]+', code):
+        if re.search(r'[^\d+\-*/.\s]', code):
+            raise ValueError("Некорректный ввод данных. Введите только числа и операторы.")
+        else:
+            raise ValueError("Некорректный формат ввода. Допустимые операторы: +, -, *, /.")
+
     try:
-        result = eval(code)
+        result = eval(code) # Используем eval, так как выражение арифметическое
         if not isinstance(result, (int, float)):
-            raise AttributeError("Некорректный формат кода. Невозможно выполнить операцию.")
+            raise TypeError("Некорректный формат кода. Невозможно выполнить операцию.")
     except ZeroDivisionError:
-        raise ZeroDivisionError("Некорректный формат кода. Деление на 0 недопустимо.")
+        raise ZeroDivisionError("Ошибка: Деление на 0 недопустимо.")
     except Exception:
         raise TypeError("Некорректный формат кода. Невозможно выполнить операцию.")
 
@@ -22,7 +27,6 @@ def process_secret_code(code):
 
 try:
     print(process_secret_code(code))
-except (ValueError, TypeError, ZeroDivisionError, Exception, AttributeError) as error:
+except (ValueError, TypeError, ZeroDivisionError) as error:
     print(error)
-
 

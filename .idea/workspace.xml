@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3af6cba-f531-4dd0-a1fa-049f43ea40f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Practic/T10_API_Excampel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practic/t10API_hW.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practic/t10p2_hw1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practic/t10p2_hw2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practic/t10_hw5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practic/t10_hw5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,7 @@
       <updated>1742463977146</updated>
       <workItem from="1742463977147" duration="3000" />
       <workItem from="1742469880776" duration="1394000" />
-      <workItem from="1742532113236" duration="1892000" />
+      <workItem from="1742532113236" duration="3103000" />
     </task>
     <servers />
   </component>
