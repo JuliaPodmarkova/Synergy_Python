@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3af6cba-f531-4dd0-a1fa-049f43ea40f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Practic/t10_hw5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practic/t10_hw5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practic/Tema12.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practic/cats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practic/t13_hw1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practic/task t13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practic/watermark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Blackjack/pythonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Blackjack/pythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Blackjack/pythonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Blackjack/pythonProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Blackjack/pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Blackjack/pythonProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Blackjack/pythonProject/blackjack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Synergy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Synergy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practic/Tema12.rar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +33,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -47,6 +74,7 @@
     "Python.T10_API_Excampel.executor": "Run",
     "Python.t10p2_hw1.executor": "Run",
     "Python.t10p2_hw2.executor": "Run",
+    "Python.task t13.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/LearninPython/Synergy/Practic",
@@ -55,6 +83,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,6 +111,7 @@
       <workItem from="1742463977147" duration="3000" />
       <workItem from="1742469880776" duration="1394000" />
       <workItem from="1742532113236" duration="3103000" />
+      <workItem from="1743159966096" duration="10348000" />
     </task>
     <servers />
   </component>
@@ -92,5 +122,6 @@
     <SUITE FILE_PATH="coverage/t8p2_hw2_py$t10p2_hw1.coverage" NAME="t10p2_hw1 Coverage Results" MODIFIED="1742537443609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practic" />
     <SUITE FILE_PATH="coverage/t8p2_hw2_py$t10p2_hw2.coverage" NAME="t10p2_hw2 Coverage Results" MODIFIED="1742537890630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practic" />
     <SUITE FILE_PATH="coverage/t8p2_hw2_py$T10_API_Excampel.coverage" NAME="T10_API_Excampel Coverage Results" MODIFIED="1742470624467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practic" />
+    <SUITE FILE_PATH="coverage/task_t13_py$task_t13.coverage" NAME="task t13 Coverage Results" MODIFIED="1743171554560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practic" />
   </component>
 </project>
